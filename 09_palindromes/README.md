@@ -12,8 +12,15 @@ A palindrome is a string that is spelled the same both forwards and backwards, u
   - A nut for a jar of tuna.
 
 ```javascript
-palindromes('racecar') // true
+palindromes('raceecar') // true
 palindromes('tacos') // false
 ```
 
+racecar 
+
+split the word into an array 
+get length 
+get the last letter of word 
+keep checking while first letter of array matches with last letter of array
+even if one letter is not a match return, this is not a palindrome 
 
